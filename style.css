@@ -81,6 +81,24 @@ header {
   animation: fadeIn 1s ease-in-out forwards;
 }
 
+.tagline {
+  font-size: 1.1rem;
+  font-style: italic;
+  margin-top: 10px;
+  color: #4a4a4a;
+  transition: all 0.3s ease-in-out;
+  letter-spacing: 0.5px;
+}
+
+.tagline:hover {
+  color: #333;
+  letter-spacing: 1px;
+}
+
+.tagline {
+  text-align: center;
+}
+
 @keyframes fadeIn {
   to {
     opacity: 1;
