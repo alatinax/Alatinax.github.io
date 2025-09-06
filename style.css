@@ -141,10 +141,6 @@ html {
   scroll-behavior: smooth;
 }
 
-header {
-  background: linear-gradient(to bottom right, #f8f8f8, #e0e0e0);
-}
-
 @keyframes fadeIn {
   to {
     opacity: 1;
