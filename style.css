@@ -21,6 +21,21 @@ header {
   margin-top: 40px;
 }
 
+.tagline {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.2rem;
+  color: #4a4a4a;
+  margin-top: 10px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  background-color: rgba(255, 255, 255, 0.5); /* optional light highlight */
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 .name-logo {
   display: flex;
   justify-content: center;
