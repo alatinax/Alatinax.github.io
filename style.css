@@ -110,3 +110,9 @@ button {
   margin-top: 1rem;
 }
 
+.icon {
+  height: 18px;
+  vertical-align: middle;
+  margin-right: 8px;
+  margin-bottom: 2px;
+}
