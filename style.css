@@ -88,11 +88,11 @@ section {
 
 .button:hover {
   background-color: #444;
-  transform: translateY(-2px);
+  transform: translateY(-3px) scale(1.02);
 }
 
 .button:active {
-  transform: translateY(1px);
+  transform: scale(0.98);
 }
 
 input, textarea {
