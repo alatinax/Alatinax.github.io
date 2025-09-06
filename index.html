@@ -85,5 +85,23 @@
 
 <button onclick="topFunction()" id="topBtn" title="Go to top">↑</button>  
   
+  <script>
+  // Show button after scrolling 300px
+  window.onscroll = function () {
+    const btn = document.getElementById("topBtn");
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+      btn.style.display = "block";
+    } else {
+      btn.style.display = "none";
+    }
+  };
+
+  // Scroll to top on click
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>
+
 </body>
 </html>
