@@ -103,7 +103,7 @@ header {
   position: fixed;
   top: 20px;
   left: 20px;
-  height: 35px; /* 👈 Smaller height */
+  height: 50px;
   z-index: 1000;
   opacity: 0.9;
   transition: transform 0.3s ease, opacity 0.3s ease;
