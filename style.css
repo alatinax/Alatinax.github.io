@@ -71,3 +71,26 @@ section {
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
+
+.button {
+  display: inline-block;
+  padding: 12px 20px;
+  margin: 0.5rem;
+  font-size: 16px;
+  font-family: inherit;
+  color: #fff;
+  background-color: #666;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button:hover {
+  background-color: #444;
+  transform: translateY(-2px);
+}
+
+.button:active {
+  transform: translateY(1px);
+}
