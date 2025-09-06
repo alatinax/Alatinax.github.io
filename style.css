@@ -171,3 +171,8 @@ button {
 #topBtn:hover {
   background-color: #ddd;
 }
+
+/* Add this to style.css */
+html {
+  scroll-behavior: smooth;
+}
