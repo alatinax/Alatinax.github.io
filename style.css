@@ -94,3 +94,18 @@ section {
 .button:active {
   transform: translateY(1px);
 }
+
+input, textarea {
+  width: 90%;
+  max-width: 500px;
+  padding: 10px;
+  margin: 0.5rem auto;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-family: inherit;
+}
+
+button {
+  margin-top: 1rem;
+}
