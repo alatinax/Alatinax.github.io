@@ -9,7 +9,7 @@ body {
 }
 
 header {
-  background-image: url('images/E850D6EF-C06E-4EFC-AB74-0D5A9434A6E6.png');
+  background-image: url('images/A347D2B7-3895-4888-9BC6-B38A56EF304F.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -56,17 +56,6 @@ header {
   object-fit: contain;
 }
 
-.main-logo {
-  max-width: 300px; /* Adjust to fit your outline size */
-  height: auto;
-  margin-top: 40px;
-  margin-bottom: 20px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  opacity: 0.95; /* Optional: slightly see-through to blend with background */
-}
-
 .header-container {
   display: flex;
   flex-direction: column;
@@ -111,23 +100,6 @@ header {
 
 .tagline {
   text-align: center;
-}
-
-.site-logo {
-  position: fixed;
-  top: 60px; /* 👈 Was 20px — move it lower */
-  left: 20px;
-  height: 35px;
-  z-index: 1000;
-  opacity: 0.9;
-  transition: transform 0.3s ease, opacity 0.3s ease;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-}
-
-.site-logo:hover {
-  transform: scale(1.05);
-  opacity: 1;
 }
 
 .hero-subline {
