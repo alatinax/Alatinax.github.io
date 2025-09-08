@@ -57,11 +57,14 @@ header {
 }
 
 .main-logo {
-  width: 240px;        /* ✅ reduced from 280px */
-  max-width: 70%;      /* ✅ slightly more responsive constraint */
+  max-width: 300px; /* Adjust to fit your outline size */
   height: auto;
-  margin: 0 auto 20px;
+  margin-top: 40px;
+  margin-bottom: 20px;
   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.95; /* Optional: slightly see-through to blend with background */
 }
 
 .header-container {
