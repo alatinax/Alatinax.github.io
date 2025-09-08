@@ -174,6 +174,24 @@ html {
   margin-top: 8px;
 }
 
+.site-logo {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  height: 40px;
+  width: auto;
+  z-index: 1000;
+  opacity: 0.95;
+  border-radius: 6px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.site-logo:hover {
+  transform: scale(1.05);
+  opacity: 1;
+}
+
 @keyframes fadeIn {
   to {
     opacity: 1;
