@@ -141,6 +141,32 @@ html {
   scroll-behavior: smooth;
 }
 
+.company-logo {
+  max-width: 250px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.tagline-block {
+  margin-top: 40px;
+}
+
+.main-tagline {
+  font-size: 1.3rem;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 15px 25px;
+  border-radius: 10px;
+  display: inline-block;
+  font-style: italic;
+}
+
+.subline {
+  margin-top: 15px;
+  font-size: 1.1rem;
+  color: #444;
+  font-style: italic;
+}
+
 @keyframes fadeIn {
   to {
     opacity: 1;
