@@ -56,6 +56,14 @@ header {
   object-fit: contain;
 }
 
+.main-logo {
+  width: 280px;
+  max-width: 80%;
+  height: auto;
+  margin: 0 auto 20px;
+  display: block;
+}
+
 .header-container {
   display: flex;
   flex-direction: column;
