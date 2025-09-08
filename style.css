@@ -57,8 +57,8 @@ header {
 }
 
 .main-logo {
-  width: 280px;
-  max-width: 80%;
+  width: 180px;        /* ✅ reduced from 280px */
+  max-width: 60%;      /* ✅ slightly more responsive constraint */
   height: auto;
   margin: 0 auto 20px;
   display: block;
