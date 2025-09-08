@@ -175,6 +175,30 @@ html {
   font-style: italic;
 }
 
+.tagline-box {
+  background-color: rgba(242, 242, 242, 0.8);  /* soft neutral grey with transparency */
+  padding: 20px 30px;
+  border-radius: 12px;
+  display: inline-block;
+  margin-top: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* subtle shadow for depth */
+}
+
+.hero-subline {
+  font-size: 1rem;
+  color: #444;
+  margin: 0;
+  font-style: italic;
+}
+
+.hero-tagline {
+  font-size: 1.05rem;
+  color: #333;
+  display: block;
+  margin-top: 8px;
+}
+
 @keyframes fadeIn {
   to {
     opacity: 1;
