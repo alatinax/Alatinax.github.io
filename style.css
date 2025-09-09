@@ -17,13 +17,13 @@ header {
 
 .logo-wrapper {
   position: absolute;
-  top: 20px;
+  top: 10px;
   left: 20px;
   z-index: 10;
 }
 
 .floating-logo {
-  height: 60px; /* Adjust as needed */
+  height: 40px; /* Adjust as needed */
   width: auto;
   border-radius: 10px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
