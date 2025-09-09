@@ -1,209 +1,20 @@
 body {
-  font-family: "Courier New", Courier, monospace;
-  font-size: 16px;
-  line-height: 1.7;
   margin: 0;
   padding: 0;
-  background-color: #f2f2f2; /* light marble grey */
+  font-family: "Courier New", Courier, monospace;
+  background-color: #f2f2f2;
   color: #333;
 }
 
 header {
-  background-image: url('images/A347D2B7-3895-4888-9BC6-B38A56EF304F.png');
+  background-image: url('images/A347D2B7-3895-4888-9BC6-B38A56EF304F.jpg'); /* update to your actual image path */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 140px 20px 100px;
   text-align: center;
-  color: #333;
+  padding: 80px 20px 40px;
   position: relative;
 }
-
-.header-container {
-  position: relative;
-  background-image: url('images/A347D2B7-3895-4888-9BC6-B38A56EF304F.png'); /* ← Update with your correct image path */
-  background-size: cover;
-  background-position: center;
-  padding: 120px 20px 60px 20px;
-  text-align: center;
-  color: #333;
-}
-
-.tagline {
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 1.2rem;
-  color: #4a4a4a;
-  margin-top: 10px;
-  text-align: center;
-  letter-spacing: 0.5px;
-  font-weight: 500;
-  background-color: rgba(255, 255, 255, 0.5); /* optional light highlight */
-  display: inline-block;
-  padding: 8px 16px;
-  border-radius: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.name-logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  flex-wrap: wrap;
-  margin-bottom: 10px;
-}
-
-.inline-logo {
-  height: 40px;
-  max-width: 120px;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  object-fit: contain;
-}
-
-.header-container {
-  background-color: rgba(242, 242, 242, 0.7); /* light marble-grey with slight transparency */
-  display: inline-block;
-  padding: 10px 20px;
-  border-radius: 6px;
-  margin-top: 20px;
-}
-
-.name-logo {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.inline-logo {
-  height: 48px;  /* adjust as needed, maybe from 40px to 48px */
-  margin-left: 10px;
-  vertical-align: middle;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-.inline-logo {
-  /* existing styles... */
-  opacity: 0;
-  animation: fadeIn 1s ease-in-out forwards;
-}
-
-.tagline {
-  font-size: 1.1rem;
-  color: #666;
-  font-style: italic;
-  margin-top: 10px; /* adds space under the name */
-  text-align: center;
-  letter-spacing: 0.5px;
-}
-
-.tagline:hover {
-  color: #333;
-  letter-spacing: 1px;
-}
-
-.tagline {
-  text-align: center;
-}
-
-.hero-subline {
-  font-size: 1rem;
-  color: #555;
-  margin-top: 10px;
-  font-style: italic;
-}
-
-.services-list {
-  list-style: none;
-  padding: 0;
-  font-size: 1.1rem;
-  line-height: 1.8;
-  color: #444;
-}
-.services-list li::before {
-  content: "💼 ";
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-.company-logo {
-  max-width: 250px;
-  height: auto;
-  margin-bottom: 20px;
-}
-
-.tagline-block {
-  margin-top: 40px;
-}
-
-.main-tagline {
-  font-size: 1.3rem;
-  background-color: rgba(255, 255, 255, 0.7);
-  padding: 15px 25px;
-  border-radius: 10px;
-  display: inline-block;
-  font-style: italic;
-}
-
-.subline {
-  margin-top: 15px;
-  font-size: 1.1rem;
-  color: #444;
-  font-style: italic;
-}
-
-.tagline-box {
-  background-color: rgba(242, 242, 242, 0.8);
-  padding: 20px 30px;
-  border-radius: 12px;
-  display: inline-block;
-  text-align: center;
-  margin-top: 80px; /* <- Increase this value to lower the box */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.hero-subline {
-  font-size: 1rem;
-  color: #444;
-  margin: 0;
-  font-style: italic;
-}
-
-.hero-tagline {
-  font-size: 1.05rem;
-  color: #333;
-  display: block;
-  margin-top: 8px;
-}
-
-.hero-subline {
-  margin-top: 20px; /* Add this if not already there */
-  display: inline-block; /* Helps spacing */
-}
-
-.site-logo {
-  height: 60px;
-  width: auto;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-}
-
-.site-logo:hover {
-  transform: scale(1.05);
-  opacity: 1;
-}
-
-.logo-wrapper {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  z-index: 10;
-}
-
 
 @keyframes fadeIn {
   to {
@@ -319,38 +130,6 @@ button {
   height: 18px;
 }
 
-/* === FLOATING NAVIGATION BAR === */
-.navbar {
-  position: relative;
-  width: 100%;
-  background-color: #f5f5f5; /* light marble-gray tone */
-  padding: 10px 0;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  text-align: center;
-}
-
-.navbar ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.navbar li {
-  display: inline-block;
-  margin: 0 20px;
-}
-
-.navbar a {
-  text-decoration: none;
-  font-family: "Courier New", monospace;
-  color: #333;
-  font-weight: bold;
-  transition: color 0.3s ease;
-}
-
-.navbar a:hover {
-  color: #0077b6; /* elegant blue on hover */
-}
 
 /* === BACK TO TOP BUTTON === */
 #topBtn {
