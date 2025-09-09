@@ -53,17 +53,15 @@ header {
 .top-navbar li a {
   text-decoration: none;
   color: #000; /* black text */
-  background-color: #fff; /* white background */
-  padding: 0.6rem 1.2rem;
-  border-radius: 8px;
+  background: none; /* removes button background */
+  border: none; /* removes border */
   font-family: "Courier New", Courier, monospace;
   font-weight: bold;
   font-size: 1.1rem;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
-  transition: background-color 0.3s ease, color 0.3s ease;
+  padding: 0.6rem 1.2rem; /* keeps spacing if you want clickable area */
+  transition: color 0.3s ease;
 }
 
 .top-navbar li a:hover {
-  background-color: #f0f0f0;
-  color: #007acc; /* optional blue hover */
+  color: #007acc; /* soft blue on hover */
 }
