@@ -1,14 +1,28 @@
+/* Reset browser spacing */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+
 /* ----------------------------------- */
 /* HEADER SECTION — Background Image   */
 /* ----------------------------------- */
 
 header {
-  background-image: url('images/A347D2B7-3895-4888-9BC6-B38A56EF304F.png'); /* Update path if needed */
+  background-image: url('images/A347D2B7-3895-4888-9BC6-B38A56EF304F.png'); /* adjust if needed */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 400px; /* Adjust height if you want more or less of the image shown */
+  width: 100vw;
+  height: 100vh; /* full screen height */
+  margin: 0;
+  padding: 0;
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* ----------------------------------- */
@@ -33,13 +47,15 @@ header {
 /* NAVBAR - Top Navigation Bar  */
 /* ============================= */
 
+/* === NAVBAR SECTION === */
 .top-navbar {
-  background-color: #ffffff;
+  width: 100vw;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
   padding: 1rem 0;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  position: relative;
-  z-index: 10;
+  margin: 0;
 }
 
 .top-navbar ul {
@@ -64,4 +80,8 @@ header {
 
 .top-navbar li a:hover {
   color: #007acc; /* soft blue on hover */
+}
+
+* {
+  box-sizing: border-box;
 }
