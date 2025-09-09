@@ -168,7 +168,7 @@ header {
 /* === WHAT I OFFER BOX === */
 
 .offer-list {
-  list-style: none;
+  list-style-type: none;   /* ← This removes the dots */
   padding: 0;
   margin: 0 auto;
   text-align: left;
