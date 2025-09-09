@@ -163,3 +163,18 @@ header {
   margin-bottom: 1rem;
   font-size: 0.95rem;
 }
+
+/* === WHAT I OFFER BOX === */
+
+.offer-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  text-align: left;
+  display: inline-block;
+  font-size: 0.95rem;
+}
+
+.offer-list li {
+  margin-bottom: 0.5rem;
+}
