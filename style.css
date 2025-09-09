@@ -1,1 +1,12 @@
+/* ----------------------------------- */
+/* HEADER SECTION — Background Image   */
+/* ----------------------------------- */
 
+header {
+  background-image: url('images/A347D2B7-3895-4888-9BC6-B38A56EF304F.png'); /* Update path if needed */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px; /* Adjust height if you want more or less of the image shown */
+  position: relative;
+}
