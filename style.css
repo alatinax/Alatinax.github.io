@@ -11,7 +11,7 @@ body {
 /* ----------------------------------- */
 
 header {
-  background-image: url('images/A347D2B7-3895-4888-9BC6-B38A56EF304F.png'); /* adjust if needed */
+  background-image: url('images/A347D2B7-3895-4888-9BC6-B38A56EF304F.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -20,24 +20,25 @@ header {
   margin: 0;
   padding: 0;
   position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 /* === HEADER CONTAINER ON BACKGROUND === */
 
 .header-container {
   position: absolute;
-  bottom: 4rem; /* adjust position from bottom */
+  bottom: 3rem;                /* bring a little closer to bottom */
   left: 50%;
   transform: translateX(-50%);
-  background-color: rgba(255, 255, 255, 0.4); /* soft transparent white */
+  background-color: rgba(255, 255, 255, 0.6);  /* brighter soft white */
   padding: 1rem 2rem;
-  border-radius: 12px;
-  z-index: 3;
-  max-width: 90%;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);   /* subtle shadow */
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #000;
   text-align: center;
+  z-index: 3;
 }
 
 /* Tagline Text */
@@ -48,6 +49,16 @@ header {
   color: #000;
   margin: 0;
   font-weight: bold;
+}
+
+/* === RESPONSIVE HEADER TAGLINE === */
+
+@media (max-width: 600px) {
+  .header-container {
+    bottom: 2rem; /* slightly closer on smaller screens */
+    font-size: 1rem;
+    padding: 0.75rem 1.5rem;
+  }
 }
 
 /* ----------------------------------- */
@@ -67,10 +78,6 @@ header {
   border-radius: 10px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
-
-/* ============================= */
-/* NAVBAR - Top Navigation Bar  */
-/* ============================= */
 
 /* === NAVBAR SECTION === */
 
