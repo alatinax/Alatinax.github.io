@@ -317,13 +317,11 @@ button {
 
 /* === FLOATING NAVIGATION BAR === */
 .navbar {
-  position: fixed;
-  top: 0;
+  position: static;
   width: 100%;
   background-color: #f5f5f5; /* light marble-gray tone */
   padding: 10px 0;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  z-index: 1000;
   text-align: center;
 }
 
