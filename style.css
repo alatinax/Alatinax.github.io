@@ -50,7 +50,7 @@ header {
 /* === NAVBAR SECTION === */
 .top-navbar {
   width: 100vw;
-  background-color: rgba(255, 255, 255, 0.85); /* 85% opaque white */
+  background-color: rgba(255, 255, 255, 0.75); /* 85% opaque white */
   display: flex;
   justify-content: center;
   gap: 2rem;
