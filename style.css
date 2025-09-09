@@ -180,23 +180,25 @@ html {
 }
 
 .site-logo {
-  position: fixed;
+  position: absolute;       /* Instead of fixed */
   top: 20px;
   left: 20px;
-  height: 36px;        /* Smaller height */
+  height: 50px;             /* Slightly larger for visibility */
   width: auto;
-  max-width: 150px;    /* This limits its width */
   z-index: 1000;
-  opacity: 0.9;
+  opacity: 0.95;
   border-radius: 6px;
   transition: transform 0.3s ease, opacity 0.3s ease;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
-  background-color: white; /* Optional: clean border */
 }
 
 .site-logo:hover {
   transform: scale(1.05);
   opacity: 1;
+}
+
+.logo-wrapper {
+  position: relative;
 }
 
 @keyframes fadeIn {
