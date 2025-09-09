@@ -182,17 +182,16 @@ html {
 }
 
 .site-logo {
-  position: fixed;
-  top: 16px;
-  left: 16px;
-  height: 48px;
+  position: relative;
+  height: 50px;
   width: auto;
-  z-index: 1000;
   opacity: 0.95;
   border-radius: 6px;
-  transition: transform 0.3s ease, opacity 0.3s ease;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  z-index: 500;
 }
+
 .site-logo:hover {
   transform: scale(1.05);
   opacity: 1;
@@ -200,7 +199,10 @@ html {
 
 .logo-wrapper {
   position: relative;
+  margin: 20px 0 0 20px; /* space from top and left */
+  z-index: 500; /* Below navbar */
 }
+
 
 @keyframes fadeIn {
   to {
