@@ -4,6 +4,7 @@ body {
   line-height: 1.7;
   margin: 0;
   padding: 0;
+  padding-top: 70px; /* Makes room for fixed logo */
   background-color: #f2f2f2; /* light marble grey */
   color: #333;
 }
@@ -180,10 +181,10 @@ html {
 }
 
 .site-logo {
-  position: absolute;       /* Instead of fixed */
-  top: 20px;
-  left: 20px;
-  height: 50px;             /* Slightly larger for visibility */
+  position: fixed;
+  top: 16px;
+  left: 16px;
+  height: 48px;
   width: auto;
   z-index: 1000;
   opacity: 0.95;
@@ -191,7 +192,6 @@ html {
   transition: transform 0.3s ease, opacity 0.3s ease;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
 }
-
 .site-logo:hover {
   transform: scale(1.05);
   opacity: 1;
