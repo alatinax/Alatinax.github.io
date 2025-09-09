@@ -25,6 +25,31 @@ header {
   justify-content: center;
 }
 
+/* === HEADER CONTAINER ON BACKGROUND === */
+
+.header-container {
+  position: absolute;
+  bottom: 4rem; /* adjust position from bottom */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(255, 255, 255, 0.4); /* soft transparent white */
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  z-index: 3;
+  max-width: 90%;
+  text-align: center;
+}
+
+/* Tagline Text */
+
+.header-subtitle {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.2rem;
+  color: #000;
+  margin: 0;
+  font-weight: bold;
+}
+
 /* ----------------------------------- */
 /* FLOATING LOGO OVER BACKGROUND IMAGE */
 /* ----------------------------------- */
@@ -48,6 +73,7 @@ header {
 /* ============================= */
 
 /* === NAVBAR SECTION === */
+
 .top-navbar {
   width: 100vw;
   background-color: rgba(255, 255, 255, 0.75); /* 85% opaque white */
@@ -88,6 +114,7 @@ header {
 }
 
 /* === FLOATING TAGLINE ON IMAGE === */
+
 .tagline-floating {
   position: absolute;
   bottom: 4rem; /* controls how high from bottom */
