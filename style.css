@@ -4,7 +4,6 @@ body {
   line-height: 1.7;
   margin: 0;
   padding: 0;
-  padding-top: 70px; /* Makes room for fixed logo */
   background-color: #f2f2f2; /* light marble grey */
   color: #333;
 }
@@ -21,8 +20,13 @@ header {
 }
 
 .header-container {
+  position: relative;
+  background-image: url('images/A347D2B7-3895-4888-9BC6-B38A56EF304F.png'); /* ← Update with your correct image path */
+  background-size: cover;
+  background-position: center;
+  padding: 120px 20px 60px 20px;
   text-align: center;
-  margin-top: 100px; /* Increase this value to lower the taglines */
+  color: #333;
 }
 
 .tagline {
@@ -182,14 +186,10 @@ html {
 }
 
 .site-logo {
-  position: relative;
-  height: 50px;
+  height: 60px;
   width: auto;
-  opacity: 0.95;
-  border-radius: 6px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
-  transition: transform 0.3s ease, opacity 0.3s ease;
-  z-index: 500;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
 .site-logo:hover {
@@ -198,9 +198,10 @@ html {
 }
 
 .logo-wrapper {
-  position: relative;
-  margin: 20px 0 0 20px; /* space from top and left */
-  z-index: 500; /* Below navbar */
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 10;
 }
 
 
@@ -320,7 +321,7 @@ button {
 
 /* === FLOATING NAVIGATION BAR === */
 .navbar {
-  position: static;
+  position: relative;
   width: 100%;
   background-color: #f5f5f5; /* light marble-gray tone */
   padding: 10px 0;
