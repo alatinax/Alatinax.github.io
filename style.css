@@ -349,3 +349,51 @@ header {
   background-color: #e0e0e0;
   color: #000;
 }
+
+/* =========================================== */
+/* PERSONAL INSURANCE FORM STYLING             */
+/* =========================================== */
+
+.insurance-form-section {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Courier New', monospace;
+}
+
+.insurance-form-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.insurance-form-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.insurance-form-section input,
+.insurance-form-section textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  font-family: inherit;
+}
+
+.insurance-form-section button {
+  padding: 12px;
+  background-color: #f0f0f0;
+  border: none;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.insurance-form-section button:hover {
+  background-color: #ddd;
+}
