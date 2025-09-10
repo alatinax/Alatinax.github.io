@@ -407,6 +407,13 @@ ul.checklist {
   margin-left: 0;          /* optional, makes it cleaner */
 }
 
+/* === PERSONAL INSURANCE PAGE: FORM BUTTON FONT === */
+
+.form-button {
+  font-family: 'Courier New', Courier, monospace;  /* ✅ Matches the site */
+  font-weight: bold;                                /* ✅ Keeps bold styling */
+}
+
 /* TEXT EMOJI */
 
 .emoji-row {
