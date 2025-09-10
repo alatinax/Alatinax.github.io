@@ -232,6 +232,46 @@ header {
   margin-top: 2.5rem;
 }
 
+/* QUOTE FORM BOXES*/
+
+.quote-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.quote-form input,
+.quote-form textarea {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  min-width: 220px;
+}
+
+.quote-form textarea {
+  flex-basis: 100%;
+  min-height: 80px;
+  resize: vertical;
+}
+
+.quote-form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1.2rem;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.quote-form button:hover {
+  background-color: #0056b3;
+}
+
 /* === CONTACT BUTTON ICON STYLES === */
 
 .contact-buttons {
