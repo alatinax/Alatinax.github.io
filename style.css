@@ -399,6 +399,14 @@ header {
   background-color: #ddd;
 }
 
+/* === PERSONAL INSURANCE PAGE: REMOVE BULLETS === */
+
+ul.checklist {
+  list-style-type: none;   /* ✅ removes default black bullets */
+  padding-left: 0;         /* ✅ removes indentation */
+  margin-left: 0;          /* optional, makes it cleaner */
+}
+
 /* TEXT EMOJI */
 
 .emoji-row {
