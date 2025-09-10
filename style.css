@@ -179,3 +179,13 @@ header {
 .offer-list li {
   margin-bottom: 0.5rem;
 }
+
+/* LICENSES BOX */
+
+.licenses-text {
+  font-size: 1rem;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  line-height: 1.8;
+  color: #333;
+}
