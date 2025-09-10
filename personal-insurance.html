@@ -52,17 +52,17 @@
 <!-- PERSONAL INSURANCE FORM SECTION -->
 <!-- ================================ -->
   
-<div class="section-box">
-  <h2>Request a Personal Insurance Quote</h2>
-  <form class="quote-form">
-    <input type="text" placeholder="Your Full Name" />
-    <input type="email" placeholder="Your Email" />
-    <input type="tel" placeholder="Your Phone Number" />
-    <input type="text" placeholder="Your Home Address" />
-    <textarea placeholder="Tell us about your insurance needs"></textarea>
-    <button type="submit">Send Message</button>
-  </form>
-</div>
+<section class="section-box">
+    <h2 class="section-title">Request a Personal Insurance Quote</h2>
+    <form action="https://formspree.io/f/xpwjkqzr" method="POST" class="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <input type="tel" name="phone" placeholder="Phone Number" required />
+      <input type="text" name="company" placeholder="Company Name" />
+      <textarea name="message" placeholder="Tell us about your insurance needs" required></textarea>
+      <button type="submit" class="submit-button">Send Message</button>
+    </form>
+  </section>
   
 <!-- ========================== -->
 <!-- === BACK TO HOME BTN ==== -->
