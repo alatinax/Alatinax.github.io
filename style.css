@@ -398,3 +398,12 @@ header {
 .insurance-form-section button:hover {
   background-color: #ddd;
 }
+
+/* TEXT EMOJI */
+
+.emoji-row {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-top: 1rem;
+  letter-spacing: 0.5rem;
+}
