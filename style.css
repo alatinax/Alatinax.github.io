@@ -89,10 +89,12 @@ header {
   z-index: 1000;
 }
 
+/* === LOGO IMAGE STYLING === */
+
 .logo-image {
-  width: 80px;
-  height: auto;
-  border-radius: 10px; /* optional: soften edges */
+  height: 60px; /* Adjust size if needed */
+  margin-top: 10px; /* Lower it */
+  margin-left: 20px; /* Optional: space from left edge */
 }
 
 /* === NAVBAR SECTION === */
