@@ -94,7 +94,7 @@ header {
 .logo-image {
   height: 50px;         /* Size of logo */
   margin-top: 40px;     /* Push it down more (increase if needed) */
-  margin-left: -10px;   /* Nudge it closer to the left edge */
+  margin-left: -5px;   /* Nudge it closer to the left edge */
 }
 
 /* === NAVBAR SECTION === */
