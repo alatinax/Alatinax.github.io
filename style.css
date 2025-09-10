@@ -349,27 +349,3 @@ header {
   background-color: #e0e0e0;
   color: #000;
 }
-
-/* ================================ */
-/* FLOATING BACK TO HOME BUTTON    */
-/* ================================ */
-
-.floating-home-btn {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background-color: #f5f5f5;
-  color: #000;
-  font-size: 24px;
-  padding: 12px 16px;
-  border-radius: 50%;
-  text-decoration: none;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  z-index: 999;
-  transition: all 0.3s ease;
-}
-
-.floating-home-btn:hover {
-  background-color: #e0e0e0;
-  transform: scale(1.1);
-}
