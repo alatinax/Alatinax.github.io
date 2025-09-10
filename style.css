@@ -210,3 +210,34 @@ header {
   font-weight: bold;
   margin-bottom: 1rem;
 }
+
+/* === CONTACT BUTTON ICON STYLES === */
+
+.contact-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.contact-buttons a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: #333;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.contact-buttons a:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.contact-buttons svg {
+  fill: #333;
+}
