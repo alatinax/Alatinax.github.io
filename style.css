@@ -92,9 +92,9 @@ header {
 /* === LOGO IMAGE STYLING === */
 
 .logo-image {
-  height: 60px; /* Adjust size if needed */
-  margin-top: 20px; /* Lower it */
-  margin-left: 0px; /* Optional: space from left edge */
+  height: 60px;         /* Size of logo */
+  margin-top: 40px;     /* Push it down more (increase if needed) */
+  margin-left: -10px;   /* Nudge it closer to the left edge */
 }
 
 /* === NAVBAR SECTION === */
