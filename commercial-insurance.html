@@ -1,1 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Commercial Insurance | Florida State Insurance Group</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
 
+  <!-- === NAVBAR (reuse your existing one) === -->
+  
+  <nav class="top-navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+      <li><a href="personal-insurance.html">Personal</a></li>
+      <li><a href="commercial-insurance.html">Commercial</a></li>
+    </ul>
+  </nav>
+
+  <!-- === FSIG LOGO === -->
+  
+  <img src="fsig.jpeg" alt="Florida State Insurance Group Logo" class="logo-image" />
+
+  <!-- === COMMERCIAL INSURANCE SECTION === -->
+  
+  <section class="section-box">
+    <h2 class="section-title">Commercial Insurance Options</h2>
+    <p>
+      We provide comprehensive commercial insurance solutions to protect your business assets and operations.
+    </p>
+    <ul class="checklist">
+      <li>✔ Commercial General Liability (CGL)</li>
+      <li>✔ Professional Liability / E&O Coverage</li>
+      <li>✔ Commercial Auto Insurance</li>
+      <li>✔ Business Owner's Policy (BOP)</li>
+      <li>✔ Workers' Compensation</li>
+    </ul>
+    <div class="emoji-line">🏢 🚛 📑 🧑‍💼 ⚖️</div>
+  </section>
+
+  <!-- === COMMERCIAL CONTACT FORM === -->
+  
+  <section class="section-box">
+    <h2 class="section-title">Request a Commercial Quote</h2>
+    <form action="https://formspree.io/f/xpwjkqzr" method="POST" class="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <input type="tel" name="phone" placeholder="Phone Number" required />
+      <input type="text" name="company" placeholder="Company Name" />
+      <textarea name="message" placeholder="Tell us about your insurance needs" required></textarea>
+      <button type="submit" class="submit-button">Send Message</button>
+    </form>
+  </section>
+
+  <!-- === BACK TO HOME BUTTON === -->
+  
+  <div class="back-home-container">
+    <a href="index.html" class="back-home-btn">🏠 Back to Home</a>
+  </div>
+
+</body>
+</html>
