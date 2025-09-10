@@ -387,6 +387,7 @@ header {
 .insurance-form-section button {
   padding: 12px;
   background-color: #f0f0f0;
+  color: black; /* ← This makes the text black */
   border: none;
   font-weight: bold;
   border-radius: 6px;
