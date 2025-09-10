@@ -228,6 +228,10 @@ header {
   margin-bottom: 1rem;
 }
 
+.section-box + .section-box {
+  margin-top: 2.5rem;
+}
+
 /* === CONTACT BUTTON ICON STYLES === */
 
 .contact-buttons {
@@ -286,6 +290,7 @@ header {
 }
 
 /* === CONTACT FORM BUTTON === */
+
 .contact-form button {
   background-color: #f0f0f0;      /* light grey */
   color: #000;                    /* black text */
