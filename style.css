@@ -225,6 +225,44 @@ header {
   color: #555;
 }
 
+/* TESTIMONIAL CARD STYLES */
+
+.testimonial-card {
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.testimonial-card.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.testimonial-text {
+  font-style: italic;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.testimonial-footer {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #666;
+}
+
+/* STARS FOR REVIEWS */
+
+.stars {
+  font-size: 1.4rem;
+  color: #f5b301; /* golden star tone */
+  margin: 10px 0;
+}
+
 /* ============================= */
 /* === GLOBAL SECTION BOXES === */
 /* ============================= */
