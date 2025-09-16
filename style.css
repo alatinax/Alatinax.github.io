@@ -7,6 +7,14 @@ body {
   font-family: "Courier New", Courier, monospace;
 }
 
+/* === GENERAL PAGE CONTAINER === */
+
+.page-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
 /* ----------------------------------- */
 /* HEADER SECTION — Background Image   */
 /* ----------------------------------- */
