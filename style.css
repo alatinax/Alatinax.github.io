@@ -232,6 +232,19 @@ header {
   margin-top: 2.5rem;
 }
 
+/* COMMERCIAL EMOJIS */
+
+.emoji-row {
+  font-size: 2rem;   /* Adjust size as needed */
+  margin-top: 1rem;
+}
+
+.emoji-row {
+  font-size: 2rem;
+  margin-top: 1rem;
+  letter-spacing: 0.5rem;
+}
+
 /* QUOTE FORM BOXES*/
 
 .quote-form {
