@@ -263,6 +263,30 @@ header {
   margin: 10px 0;
 }
 
+/* FAQ PAGE STYLES */
+
+.faq-item {
+  margin-bottom: 30px;
+  padding: 15px 20px;
+  background-color: #f9f9f9;
+  border-left: 4px solid #bbb;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+}
+
+.faq-question {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  font-family: "Courier New", monospace;
+}
+
+.faq-answer {
+  font-size: 1rem;
+  color: #333;
+  font-family: "Courier New", monospace;
+}
+
 /* ============================= */
 /* === GLOBAL SECTION BOXES === */
 /* ============================= */
